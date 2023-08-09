@@ -1,0 +1,74 @@
+* reset rules */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+#allPage {
+	padding: 2px;
+	width: 825px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+header {
+	display: flex;
+}
+
+h1 {
+	color: orange;	
+	padding-left: 5px;
+	/*font-variant: small-caps;*/
+	text-transform: capitalize;	
+	font-family: 'Carter One', cursive;
+	font-size: 43px;
+}
+
+#btn {
+	margin-left: 90px;
+    margin-top: 45px;
+}
+
+#resetSc, #resetSp{
+	background: rgb(172, 114, 8);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+	border: none;
+	padding: 7px;
+}
+
+#resetSp {
+	margin-left: 30px;
+}
+
+
+#copyright {
+	font-weight: normal;
+	font-size: smaller;
+	text-align: right;
+	padding: 6px;
+  }
